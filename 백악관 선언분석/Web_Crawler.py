@@ -27,7 +27,7 @@ contents_text=[]
 result={}
 
 #엑셀로 저장하기 위한 변수
-RESULT_PATH ='D:/Projects/Web_crawling/'  #결과 저장할 경로
+RESULT_PATH ='D:/Projects/한일관계와 미국/백악관 선언분석/'  #결과 저장할 경로
 now = datetime.now() #파일이름 현 시간으로 저장하기
 
 #날짜 정제화 함수
@@ -122,7 +122,7 @@ def main():
     info_main = input("="*50+"\n"+"입력 형식에 맞게 입력해주세요."+"\n"+" 시작하시려면 Enter를 눌러주세요."+"\n"+"="*50)
     
     maxpage = input("최대 크롤링할 페이지 수 입력하시오: ")  
-    query = input("검색어 입력: ")  
+    query = input("Enter query: ")  
     sort = input("뉴스 검색 방식 입력(관련도순=0  최신순=1  오래된순=2): ")    #관련도순=0  최신순=1  오래된순=2
     s_date = input("시작날짜 입력(2019.01.04):")  #2019.01.04
     e_date = input("끝날짜 입력(2019.01.05):")   #2019.01.05
